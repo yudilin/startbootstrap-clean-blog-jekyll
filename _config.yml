@@ -2,15 +2,16 @@ title:              YL Blog
 email:              whywhygood@gmail.com
 description:        A Blog by YL
 author:             Yudi Lin
-baseurl:            
+baseurl:            ""
 url:                "https://yudilin.github.io/"
 
+
 # Social Profiles
-twitter_username:   
+twitter_username:   paulg
 github_username:    
 facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username:  yudi-lin
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
