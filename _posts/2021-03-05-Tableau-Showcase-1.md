@@ -16,7 +16,7 @@ After adapting to the new normal lifestyle, online shopping has become a dominan
 This dashboard focuses on three key matrixes: base and promo prices, price trend and the price index.
 
 ## Base and Promotional prices
-Seasonal promotions are regularly seen in FMCG, therefore it's critical to track not only the regular prices but also the promotional prices. Also mark down percentage is also shown in the table.
+Seasonal promotions are regularly seen in FMCG, therefore it's critical to track not only the regular prices but also the promotional prices. Also, the markdown percentage is shown in the table.
 
 ## Price Trend
 This graph shows the price trends for average regular prices and average promotional prices in different retailers.
@@ -24,15 +24,15 @@ This graph shows the price trends for average regular prices and average promoti
 ## Price Index
 The price index is calculated with the following formula. This is useful to check which retailer has lower prices and by much percentage. 
 
-<img src="https://bit.ly/3qmRs6H" align="center" border="0" alt="Price\ Index = ( \frac{retailer\ price\ _1}{retailer\ price\ _2})" width="269" height="47" />
+<img src="/img/posts/tableau_showcase_1_formula.jpg" align="center" border="0" alt="Price\ Index = ( \frac{retailer\ price\ _1}{retailer\ price\ _2})" width="269" height="47" />
 
 # Process of building this dashboard
 The data is collected once a week. For each retailer, we need the product name, product ID and prices. Note if the product is in promotion, the base price (non-promotional) will be kept the same as last period. Also, we need a mapping table to map products from both retailers.  
 
 # Example Insight
-For the 600mL Spirite Bottle, the average base price in retailer 1 is $0.01 cheaper than retailer 2. But retailer 2 has a higher markdown percentage on average.
+For the 600mL Spirit Bottle, the average base price in retailer 1 is $0.01 cheaper than retailer 2. But retailer 2 has a higher markdown percentage on average.
 
-Taking a closer look, retailer 2 has a lower promotional price on average before Sep 12. After Sep 12, there is large markdown in retailer 2 while retailer 1 slightly raised the promotional price.
+Taking a closer look, retailer 2 has a lower promotional price on average before Sep 12. After Sep 12, there is a large markdown in retailer 2 while retailer 1 slightly raised the promotional price.
 
 <a href="/img/posts/tableau_showcase_1_insight_1.jpg" target="_blank">
 <img src="/img/posts/tableau_showcase_1_insight_1.jpg" style="max-width:100%;" alt="Promotion Price Trend for 600mL Spirite in retailer 1">
