@@ -32,7 +32,7 @@ SELECT * FROM employees
 ORDER BY hire_date DESC LIMIT 1 OFFSET 2;
 ```
 
-Giving the question a second thought, it's possible to have muliple employees join the company on the same date, which is the third to last most recent hiring date. In the following code, I select all employees info at the third to last hiring date.
+Giving the question a second thought, it's possible to have multiple employees join the company on the same date, which is the third to last most recent hiring date. In the following code, I select all employees info at the third to last hiring date.
 ```SQL
 SELECT * FROM employees 
 WHERE hire_date = 
@@ -90,7 +90,7 @@ CREATE TABLE `salaries` (
 `to_date` date NOT NULL,
 PRIMARY KEY (`emp_no`,`from_date`));
 ```
-The key constrain in the question is finding the second highest salary which can selected by using limit and offset clause.
+The key constrains in the question is finding the second highest salary which can be selected by using the limit and offset clause.
 
 ### Using group by clause
 ``` sql
@@ -118,7 +118,7 @@ WHERE to_date = '9999-01-01' AND salary = (
 ```
 
 ### Using rank function
-This question can be solved with rank function as well. Note that if there are more than 1 employee receives the second to the highest salary, using rank function will outout all employees.
+This question can be solved with the rank function as well. Note that if there are more than 1 employee who receives the second to the highest salary, using the rank function will output all employees.
 ```sql
 SELECT emp_no, salary
 FROM (
@@ -147,7 +147,7 @@ insert into titles_test values
 ('6', '10002', 'Staff', '1996-08-03', '9999-01-01'),
 ('7', '10003', 'Senior Engineer', '1995-12-03', '9999-01-01');
 ```
-In mysql, delete can't be processed with the same select querry. Thus, I assign a name for the subquery result.
+In MySQL, delete can't be processed with the same select query. Thus, I assign a name for the subquery result.
 ```sql
 delete from titles_test where id not in (
     select * from (
