@@ -7,7 +7,7 @@ This page displays the site's tags in alphabetical order and shows how many post
 
 ### Posts by tag
 
-{% assign sorted_tags = (site.tags | sort:0) %}
+{% assign sorted_tags = site.tags | sort %}
 <ul class="tag-box">
 	{% for tag in sorted_tags %}
 		{% assign t = tag | first %}
