@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tableau Showcase 3 - Customer Cluster Dashboard
-subtitle: Customers who viewed this item also viewed
+subtitle: Know your customers better
 background: '/img/posts/shibuya_crossing.jpg'
 tags:
     - Tableau
